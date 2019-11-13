@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  margin-top: 0.5rem !important;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-location-select {
+  display: flex;
+  margin: 20px 0;
+  position: absolute;
+  width: 97%;
+}
+
+.App-section .row {
+  margin: 10px 0 0 0 !important;
+}
+
+.App-image {
+  width: 98%;
+  /* height: 120px;
+  height: auto; */
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.App-image-banner {
+  width: 20%;
+  /* height: 120px;
+  height: auto; */
+  /* float: left; */
+  margin: 3px;
+  padding: 3px;
+  display: flex;
+}
+
+.App-center-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-imgText {
+  color: black;
+}
+
+.App-countdown {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-buy-btn {
+  width: 7rem;
+}
+
+.App-table {
+  width: 30rem;
+  text-align: left;
+}
